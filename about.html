@@ -1,0 +1,89 @@
+
+<?php
+
+session_start();
+
+// Include the database connection file
+include 'db.php';
+?>
+<html>
+    <head>
+        <title>about</title>
+        <style>
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            th, td {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+            nav ul {
+        list-style-type: none;
+        padding: 0;
+        background-color:lightblue;
+        overflow: hidden;
+    }
+    
+    nav li {
+        float: left;
+    }
+    
+    nav a {
+        display: block;
+        color:black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size:20px;
+    }
+    
+    nav a:hover {
+        background-color: #ddd;
+        color: #333;
+    }
+    a{
+        
+        color: blue;
+    }
+    
+            @media (max-width: 600px) {
+        /* Adjust styles for smaller screens */
+        nav {
+            text-align: center;
+        }
+        nav ul {
+            text-align: center;
+        }
+    
+        nav li {
+            display: block;
+            float: none;
+    
+        }
+    }
+        </style>
+        
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.php">Back</a></li>
+              
+               
+                
+                <!-- Add more navigation links for other entities -->
+            </ul>
+
+        </nav>
+        <div style="text-align: center; font-size:30px;">
+       
+        <center><h2>About Us</h2></center>
+        <p> What is Eye Bank<a href="about2.html">Know More</a></p>
+       </div>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+ 
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eye Bank Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Eye Bank Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="donors.php">Donors</a></li>
+                <li><a href="eyes.php">Eyes</a></li>
+                <!-- Add more navigation links for other entities -->
+            </ul>
+            <div id="user-info">
+                <!-- Display user info or login/signup buttons based on user authentication status -->
+                <?php include 'user_info.php'; ?>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Content will be loaded dynamically based on the selected page -->
+    </main>
+    <footer>
+        <p>&copy; 2024 Eye Bank Management System</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
